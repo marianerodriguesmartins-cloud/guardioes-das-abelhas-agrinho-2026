@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guardiões das Abelhas - Agrinho 2026</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<audio id="somAcertoPersonalizado">
+    <source src="acerto.mp3" type="audio/mpeg">
+</audio>
+<body>
+    <div id="abelhas"></div>
+
+   <audio id="AUDIOFUNDO" loop>
+    <source src="AUDIOFUNDO.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Abelhas animadas -->
+<div id="abelhas">
+    <div class="abelha">🐝</div>
+    <div class="abelha">🐝</div>
+    <div class="abelha">🐝</div>
+</div>
+
+<!-- Tela de carregamento -->
+<div id="loading" class="tela ativa">
+    <h1>🐝 Guardiões das Abelhas</h1>
+    <p>Carregando...</p>
+
+    <div class="barra-loading">
+        <div id="progressoLoading"></div>
+    </div>
+</div>
+
+<!-- Tela Inicial -->
+<div id="inicio" class="tela">
+
+    <div class="escurecer"></div>
+
+    <div class="conteudo">
+        <h1>🐝 Guardiões das Abelhas</h1>
+
+        <h2>
+            Agro Forte, Futuro Sustentável
+        </h2>
+
+       <button class="botao" onclick="iniciarJogo()">
+    COMEÇAR
+</button>
+    </div>
+
+</div>
+
+<!-- Nome -->
+
+<div id="inicio" class="tela ativa">
+    <div class="conteudo">
+        <h1>🐝 Guardiões das Abelhas</h1>
+        <h2>Agro Forte, Futuro Sustentável</h2>
+
+        <button class="botao" onclick="abrirTelaNome()">
+            Começar
+        </button>
+    </div>
+</div>
+
+<div id="telaNome" class="tela">
+    <div class="caixa-aviso">
+        <h2>Digite seu nome</h2>
+
+        <input type="text" id="nomeJogador">
+
+        <button class="botao" onclick="salvarNome()">
+            Continuar
+        </button>
+    </div>
+</div>
+
+<!-- Introdução -->
+<div id="introducao" class="tela">
+
+    <h1>🌻 Sustentabilidade</h1>
+
+    <p class="texto">
+        As abelhas são responsáveis pela polinização
+        de grande parte dos alimentos que chegam à
+        nossa mesa.
+
+        Sem elas, a agricultura e o meio ambiente
+        seriam gravemente afetados.
+    </p>
+
+    <button class="botao" onclick="iniciarQuiz()">
+        Iniciar Missão
+    </button>
+
+</div>
+
+<!-- Quiz -->
+<div id="quiz" class="tela">
+
+    <div class="caixa-quiz">
+
+        <div id="contador"></div>
+
+        <div id="timer"></div>
+
+        <div class="barra-progresso">
+            <div id="barraQuiz"></div>
+        </div>
+
+        <h2 id="pergunta"></h2>
+
+        <div id="opcoes"></div>
+
+        <div id="mensagem"></div>
+
+    </div>
+
+</div>
+
+<div id="quiz" class="tela">
+
+    <h2 id="contador"></h2>
+
+    <div id="timer">
+        Tempo: 0s
+    </div>
+
+    <div class="barra-progresso">
+        <div id="barraQuiz"></div>
+    </div>
+
+    <div id="pergunta" class="pergunta"></div>
+
+    <div id="opcoes"></div>
+
+    <p id="mensagem"></p>
+
+</div>
+
+<!-- Resultado -->
+<div id="resultado" class="tela">
+
+    <h1>🏆 Resultado Final</h1>
+
+    <div id="placar"></div>
+
+    <div id="medalha"></div>
+
+    <button class="botao" onclick="gerarCertificado()">
+        📜 Certificado
+    </button>
+
+    <h2>🏅 Ranking</h2>
+
+    <div id="ranking"></div>
+
+    <button class="botao" onclick="location.reload()">
+        Jogar Novamente
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
