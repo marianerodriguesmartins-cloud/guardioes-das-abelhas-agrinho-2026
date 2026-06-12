@@ -60,12 +60,7 @@ body{
 }
 
 .escurecer{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.5);
+    display:none;
 }
 
 .conteudo{
@@ -125,6 +120,13 @@ input{
     font-size:22px;
     line-height:1.7;
     margin-top:20px;
+}
+
+#introducao h1,
+#introducao .texto,
+#introducao .botao{
+    position: relative;
+    z-index: 10;
 }
 
 /* QUIZ */
@@ -196,8 +198,18 @@ input{
 
 /* RESULTADO */
 
-#resultado{
-    background:rgba(255,255,255,0.88);
+.caixa-resultado{
+    position:relative;
+    z-index:10;
+
+    background:white;
+    width:800px;
+    max-width:90%;
+    padding:30px;
+    border-radius:20px;
+    border:5px solid #ffc107;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
 }
 
 #placar{
@@ -205,15 +217,6 @@ input{
     font-size:24px;
 }
 
-#medalha{
-    font-size:45px;
-    margin-top:25px;
-}
-
-#ranking{
-    margin-top:20px;
-    font-size:20px;
-}
 
 /* ABELHAS */
 
