@@ -399,28 +399,6 @@ mostrarTela("resultado");
 document.getElementById("barraQuiz")
 .style.width = "100%";
 
-let medalha = "";
-
-if(pontos <= 4){
-
-medalha =
-"🥉 Aprendiz das Abelhas";
-
-}
-else if(pontos <= 7){
-
-medalha =
-"🥈 Protetor da Natureza";
-
-}
-else{
-
-medalha =
-"🥇 Guardião das Abelhas";
-
-criarConfetes();
-
-}
 
 document.getElementById("placar")
 .innerHTML =
@@ -440,11 +418,6 @@ de
 Tempo:
 <b>${tempo}s</b>
 `;
-
-document.getElementById("medalha")
-.innerHTML = medalha;
-
-salvarRanking();
 
 }
 
@@ -589,3 +562,18 @@ function criarAbelhas() {
 }
 
 window.onload = criarAbelhas;
+
+function reiniciarJogo() {
+
+    indice = 0;
+    pontos = 0;
+    tempo = 0;
+
+    clearInterval(cronometro);
+
+    document.getElementById("placar").innerHTML = "";
+    document.getElementById("mensagem").innerHTML = "";
+
+    mostrarTela("inicio");
+
+}
