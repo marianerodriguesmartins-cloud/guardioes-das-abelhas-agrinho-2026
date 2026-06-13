@@ -1,71 +1,67 @@
-🐝 Apicultura Sustentável: Pequenas Abelhas, Grande Futuro
+# 🐝 Apicultura Sustentável: Pequenas Abelhas, Grande Futuro
 
-Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
+> Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação
 
-🌱 Tema do Concurso
+---
 
-Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
-📌 Sobre o Projeto
+# 🌱 Tema do Concurso
 
-O projeto "Apicultura Sustentável: Pequenas Abelhas, Grande Futuro" apresenta, de forma visual, educativa e interativa, a importância das abelhas para a agricultura, para a preservação da biodiversidade e para o desenvolvimento sustentável.
+**Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente**
 
-A proposta busca demonstrar como a apicultura contribui para o equilíbrio entre produção agrícola e conservação ambiental, destacando o papel fundamental das abelhas na polinização de diversas culturas que abastecem a população.
+---
 
-Por meio de textos informativos, imagens, curiosidades, animações e um quiz educativo, o site aproxima os visitantes do universo da apicultura e incentiva a conscientização sobre a proteção dos polinizadores.
+# 📌 Sobre o Projeto
 
-🎯 Objetivo
+O projeto **Apicultura Sustentável: Pequenas Abelhas, Grande Futuro** apresenta, de forma visual, educativa e interativa, a importância das abelhas para a agricultura, para a preservação da biodiversidade e para o desenvolvimento sustentável.
 
-O objetivo do projeto é conscientizar os visitantes sobre a importância das abelhas para o meio ambiente, para a produção de alimentos e para a sustentabilidade.
+A proposta busca demonstrar como a apicultura contribui para o equilíbrio entre produção agrícola e conservação ambiental.
 
-O site busca apresentar, de maneira simples e interativa, como a apicultura gera benefícios econômicos, sociais e ambientais, contribuindo para um futuro mais sustentável.
+---
 
-🧭 Funcionalidades do Site
+# 🎯 Objetivo
 
-O projeto conta com as seguintes funcionalidades:
+O objetivo do projeto é conscientizar os visitantes sobre a importância das abelhas para:
 
-🏠 Página inicial com imagem de abertura;
+- 🐝 A polinização
+- 🌿 A preservação ambiental
+- 🍎 A produção de alimentos
+- 🌎 A sustentabilidade
 
-🐝 Introdução sobre a apicultura;
+---
 
-📱 Menu de navegação responsivo;
+# 🧭 Funcionalidades
 
-🍯 Seção sobre os produtos das abelhas;
+- 🏠 Página inicial interativa
+- 🐝 Seção educativa sobre apicultura
+- 🍯 Produtos das abelhas
+- 🌎 Sustentabilidade
+- 🧠 Quiz educativo
+- 📊 Sistema de pontuação
+- 🏆 Certificado final
+- 📱 Layout responsivo
+- ♿ Recursos de acessibilidade
 
-🌎 Área dedicada à sustentabilidade e preservação ambiental;
+---
 
-🖼️ Galeria de imagens;
+# 💻 Tecnologias Utilizadas
 
-💡 Curiosidades sobre as abelhas;
-
-🧠 Quiz educativo com pontuação;
-
-📊 Barra de progresso durante o quiz;
-
-🏆 Certificado final com o nome do participante;
-
-♿ Recursos de acessibilidade;
-
-🌓 Modo de alto contraste;
-
-🔠 Opção para aumentar e diminuir a fonte;
-
-📲 Layout responsivo para celulares, tablets e computadores.
-
-💻 Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando apenas tecnologias básicas de front-end:
-
+```txt
 HTML5
 CSS3
 JavaScript
+```
 
-✅ Não foram utilizados frameworks.
+✅ Sem frameworks
 
-✅ Não foi utilizado Tailwind CSS.
+✅ Arquivos separados
 
-✅ Os arquivos HTML, CSS e JavaScript estão organizados separadamente.
+✅ Projeto Front-End puro
 
-📁 Estrutura de Arquivos
+---
+
+# 📁 Estrutura do Projeto
+
+```txt
 /
 ├── index.html
 ├── style.css
@@ -75,138 +71,50 @@ JavaScript
 │   ├── abertura.jpg
 │   ├── colmeia.jpg
 │   ├── mel.jpg
-│   ├── polinizacao.jpg
 │   └── sustentabilidade.jpg
-├── audio/
-│   ├── acerto.mp3
-│   └── erro.mp3
-▶️ Como Executar o Projeto
+└── audio/
+    ├── acerto.mp3
+    └── erro.mp3
+```
 
-Para visualizar o projeto localmente:
+---
 
-Baixe ou clone o projeto;
-Abra a pasta no Visual Studio Code;
-Abra o arquivo index.html;
-Utilize a extensão Live Server para visualizar o site;
-Navegue pelas seções utilizando o menu principal.
-♿ Acessibilidade
+# 🌿 Sustentabilidade
 
-O projeto inclui recursos que tornam a navegação mais inclusiva:
+O projeto aborda:
 
-🔠 Aumento e diminuição do tamanho da fonte;
+- 🌼 Importância da polinização
+- 🌱 Preservação da biodiversidade
+- 💧 Uso consciente dos recursos naturais
+- 🚜 Agricultura sustentável
+- 🐝 Proteção dos polinizadores
 
-🌓 Modo de alto contraste;
+---
 
-🖼️ Textos alternativos nas imagens;
+# 🎮 Quiz Educativo
 
-🧭 Estrutura semântica do HTML;
+O site possui um quiz com perguntas relacionadas a:
 
-📱 Design responsivo;
+- Abelhas
+- Mel
+- Polinização
+- Sustentabilidade
+- Meio Ambiente
 
-🎯 Botões acessíveis e intuitivos.
+Ao final, o usuário recebe sua pontuação e um certificado de participação.
 
-🌿 Sustentabilidade
+---
 
-O conteúdo do site destaca práticas relacionadas ao equilíbrio entre produção e meio ambiente, como:
+# 👨‍🎓 Autor
 
-🌼 Importância da polinização;
+**Iran Sejas Pérez**
 
-🌱 Preservação da biodiversidade;
+📍 Ponta Grossa - Paraná
 
-💧 Conservação dos recursos naturais;
+---
 
-🌎 Proteção dos ecossistemas;
+# 🌟 Considerações Finais
 
-🐝 Valorização dos polinizadores;
+Este projeto busca demonstrar como a tecnologia pode ser utilizada para promover educação ambiental e valorizar a importância das abelhas para um futuro sustentável.
 
-🚜 Produção agrícola sustentável;
-
-🤝 Conexão entre o campo, a cidade e a natureza.
-
-A proposta reforça que a preservação das abelhas é fundamental para garantir a produção de alimentos e a sustentabilidade das futuras gerações.
-
-🧠 Conceitos de Programação Aplicados
-
-Durante o desenvolvimento do projeto foram utilizados conceitos importantes de programação front-end:
-
-Estruturação semântica com HTML;
-Estilização com CSS externo;
-Responsividade com Media Queries;
-Manipulação do DOM com JavaScript;
-Eventos de clique;
-Funções;
-Arrays;
-Objetos;
-Condicionais;
-Interatividade com o usuário;
-Organização modular dos arquivos.
-🧩 Principais Interações Implementadas
-
-O JavaScript foi utilizado para tornar o site mais dinâmico e interativo.
-
-Entre as principais funcionalidades estão:
-
-Navegação entre seções;
-Quiz interativo;
-Verificação automática das respostas;
-Sistema de pontuação;
-Barra de progresso;
-Exibição do certificado final;
-Controle de acessibilidade;
-Efeitos visuais e animações.
-🎮 Quiz Educativo
-
-O site possui um quiz educativo sobre apicultura e sustentabilidade.
-
-Os temas abordados incluem:
-
-🐝 Abelhas;
-
-🍯 Produção de mel;
-
-🌼 Polinização;
-
-🌿 Sustentabilidade;
-
-🌎 Meio ambiente;
-
-🚜 Agricultura sustentável.
-
-Ao final do quiz, o usuário recebe sua pontuação e uma mensagem personalizada de conclusão.
-
-🖼️ Galeria de Imagens
-
-A galeria apresenta imagens relacionadas à apicultura e ao trabalho das abelhas.
-
-As imagens mostram:
-
-🐝 Abelhas em atividade;
-
-🍯 Produção de mel;
-
-🌼 Polinização de flores;
-
-🏡 Colmeias;
-
-🌿 Integração entre natureza e agricultura.
-
-👨‍🎓 Autoria
-
-Autor: Mariane Rodrigues Martins
-
-Professor(a) Orientador(a): Guilherme Almeida das Neves
-Escola: Colegio Estadual Senador Correia
-
-Município: Ponta Grossa – Paraná
-
-📚 Observação sobre o Uso de IA
-
-Ferramentas de inteligência artificial podem ter sido utilizadas como apoio na criação de imagens, textos, ideias visuais e sugestões de programação.
-
-Todos os recursos foram utilizados exclusivamente para fins educacionais, respeitando o regulamento do Concurso Agrinho 2026 e contribuindo para tornar o aprendizado mais acessível, visual e interativo.
-
-🌟 Considerações Finais
-
-O projeto "Apicultura Sustentável: Pequenas Abelhas, Grande Futuro" demonstra como a tecnologia pode ser utilizada para promover educação, conscientização ambiental e valorização do agronegócio sustentável.
-
-A iniciativa une programação, sustentabilidade e conhecimento científico para mostrar que as abelhas são essenciais para a vida no planeta e para a construção de um futuro mais equilibrado entre produção e preservação ambiental. 🐝🌻🌎
+🐝 🌻 🌎
