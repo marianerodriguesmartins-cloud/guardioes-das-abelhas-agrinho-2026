@@ -107,7 +107,7 @@ Ao final, o usuário recebe sua pontuação e um certificado de participação.
 
 # 👨‍🎓 Autor
 
-**Iran Sejas Pérez**
+**Mariane Rodrigues Martins**
 
 📍 Ponta Grossa - Paraná
 
